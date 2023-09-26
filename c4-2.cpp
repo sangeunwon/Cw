@@ -27,4 +27,7 @@ int main()
 	
 	printf("당신의 생일은 %d월 %d일 입니다.\n",month,day);
 	printf("window 7이나 10베타 버전 컴퓨터는 생일이 잘못 표기될수 있습니다. \n");
+{
+ 	return 0;
+	}
 }
