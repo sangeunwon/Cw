@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main()
-/*
+
 {
 	int a, b;
 	
@@ -63,12 +63,12 @@ printf("%d \n", a%5!=0);
 printf("%d \n", a%3==0 && a/2==0);
 printf("%d \n", a/4==0 || a/7==0);
 }
-*/
+
 {
 printf("%d \n", 2*5000>15*1000);
 printf("%d \n", (1000/2) - (1000/3) > 100 );
 printf("%d \n", 500*5 + 1000*2 <=5000);
-printf("%d \n", )
- );	
+printf("%d \n", );
+ )	
 }
 
