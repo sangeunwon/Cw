@@ -21,6 +21,8 @@ int main()
 
 {
 int res;
+	res = 0;
+	scanf("%d",& res);
 
 res = 0 && 0;
 printf("%d\n", res);
