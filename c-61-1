@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+void setup()
+{
+  int a;
+  a = 1;
+
+  scanf("%d",&a);
+  printf("%d. \n",a);
+}
