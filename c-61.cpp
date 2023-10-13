@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 int main()
-
+// this is test code for the big work. 
+//이건 큰 작품을 위한 테스트 코드일 뿐입니다.
 {
-	int a, b;
+	int ar, b;
 	
 	a = 23;
 	b = 24;
-	printf("%d\n", a>b);
-	printf("%d\n", a<b);
+	printf("%d\n", ar>b);
+	printf("%d\n", ar<b);
 	
 	return 0;
 }
@@ -71,6 +72,13 @@ printf("%d \n", 2*5000>15*1000);
 printf("%d \n", (1000/2) - (1000/3) > 100 );
 printf("%d \n", 500*5 + 1000*2 <=5000);
 printf("%d \n", );
- )	
+	
+	{
+	int ra;
+		ra = 0;
+		printf("write your name \n");
+		scanf("%lf", &ra);
+		printf("%lf", ra);
+	}
 }
 
