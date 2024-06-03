@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <window.h>
+#include <time.h>
+
+int main()
+{
+  int a = 0, b = 1, c = 1;
+  for a < b, a = 1, a++ {
+  printf("Please Enter Delete in Cmd. cmd at window.")
+}
+
+}
