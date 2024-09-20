@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <stdlio.h>
+#include <window.h>
 
 int main ()
 {
@@ -33,11 +34,13 @@ int main ()
 }
 
 char c; int i; long l; float f; double d;
+int a = 0;
 
 printf("%d %d %d %d %d\n", sizeof(c), sizeof(i),sizeof(l),sizeof(f), sizeof(d));
 printf("%d %d %d\n", sizeof(char), sizeof(int), sizeof(long));
 printf("%d %d\n", sizeof(float), sizeof(double));
 printf("%d %d\n", sizeof(153), sizeof(5,2));
+printf("%d %d\n", sizeof(151), sizeof(3.1));
 return 0 ;
 
 
@@ -50,6 +53,11 @@ printf("%d %d %d\n", sizeof(ar), sizeof(br), sizeof(dr));
 int ar[10] = {13,64,21,42,51,98,12,100,95};
 
 for()
-printf("%d\n",  );
+	
+printf("%d\n", a);
 printf("%d\n");
+	if a = 3 { 
+printf("%d %d\n" , a);
+
+	}
 }
