@@ -3,7 +3,7 @@
 
 int main ()
 {
-	/*double height[4];
+	double height[4];
 	int j = 2;
 	
 	height[0] = 145.7;
@@ -46,7 +46,7 @@ int br[ ] = {1,2,3,4,5};
 double dr[20];
 
 printf("%d %d %d\n", sizeof(ar), sizeof(br), sizeof(dr));
-*/
+
 int ar[10] = {13,64,21,42,51,98,12,100,95};
 
 for()
