@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include <windows.h>
-#include <time.h>
+#include <time.h> //시간 측정하는데 사용하는 include 함수.
 //#define X_END 79
 //#define Y_END 24
 
@@ -50,7 +50,7 @@ void Move_LeftRight_Key(char key, int *x1, int *y1, int h)
 		//	*y1 = Y_END;
 		}
 		//*y1 = Y_END;
-		break;
+			break;
 		
 		case 72:
 		*y1 = *y1 - 1;
@@ -67,7 +67,7 @@ void Move_LeftRight_Key(char key, int *x1, int *y1, int h)
 		if(*y1 < 1) {
 		//	*y1 = Y_END;
 		}
-		break;
+			break;
 		
 	}
 }
