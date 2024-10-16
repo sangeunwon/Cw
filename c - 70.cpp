@@ -42,6 +42,7 @@ printf("%d %d %d\n", sizeof(char), sizeof(int), sizeof(long));
 printf("%d %d\n", sizeof(float), sizeof(double));
 printf("%d %d\n", sizeof(153), sizeof(5,2));
 printf("%d %d\n", sizeof(151), sizeof(3,1));
+printf("%d %d\n", sizeof(140), sizeof(3,1));
 return 0 ;
 
 
