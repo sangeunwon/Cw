@@ -46,7 +46,7 @@ return 0 ;
 
 
 int ar[10];
-int br[ ] = {1,2,3,4,5};
+int br[5] = {1,2,3,4,5};
 double dr[20];
 
 printf("%d %d %d\n", sizeof(ar), sizeof(br), sizeof(dr));
